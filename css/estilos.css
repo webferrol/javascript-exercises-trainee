@@ -1,0 +1,96 @@
+
+*{
+	border:none;
+}
+body{
+	font-family: Roboto,sans-serif;
+	color: #003366;
+}
+h1,h2{
+	background-color: #BDCED6;
+}
+.rojo{
+	background: red;
+}
+.enlace{
+	color:white;
+	border-radius: 5px;
+	background: #111;
+	padding:.5em 1em;
+	text-decoration: none;
+}
+a.enlace:hover{
+	background: #ccc;
+}
+
+#contenedor{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.oculto{
+	display: none;
+	position: absolute;
+	width: 50%;
+	height: auto;
+	top:0;
+	left:50%;
+	margin-left:-25%;
+	background: white;
+	padding: 20px;
+	border: 10px solid #000;
+	overflow: hidden;
+}
+.oculto .cerrar{
+	position: absolute;
+	cursor: pointer;
+	top:5px;
+	right: 5px;
+}
+
+.caja{
+	border: 1px solid #000;
+	margin-bottom: 5px;
+}
+
+.boton{
+	display: inline-block;
+	padding: .5em 1em;
+	margin:.2em 0;
+	text-decoration: none;
+	background: red;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.addClass{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+.boton:hover{
+	background: #333;
+}
+
+textarea,input[type="text"]{
+	border:1px solid #666;
+	width: 40%;
+	display: block;
+	margin:5px 0;
+}
+
+#opcion_show_hide>section>div{
+	position: relative;
+}
+
+.destino{
+	margin-top:1em;
+	min-height: 4em;
+	border:1px solid red;
+}
+	.destino::before{
+		content:"Resultado aquí";
+		font-size: .5em;
+	}
